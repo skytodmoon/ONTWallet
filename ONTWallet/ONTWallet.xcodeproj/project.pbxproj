@@ -77,6 +77,8 @@
 		73B1C4AE2115FDD5002FDFF2 /* ONTRestfulApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B1C4AD2115FDD5002FDFF2 /* ONTRestfulApi.m */; };
 		73B1C4B12116006E002FDFF2 /* ONTNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B1C4B02116006E002FDFF2 /* ONTNetworkService.m */; };
 		7BE6E887FA43E93BBBABFDDE /* libPods-ONTWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9CF875B66657AC2E4D93F9 /* libPods-ONTWallet.a */; };
+		D1F7272C217DC8750084A341 /* ONTOCSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D1F7272B217DC8750084A341 /* ONTOCSDK.podspec */; };
+		D1F7272E217DCBAD0084A341 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D1F7272D217DCBAD0084A341 /* LICENSE */; };
 		DF83CC2B26D8D6B1F96B032B /* libPods-ONTWalletUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA427CD66D7CCC78FA3219A3 /* libPods-ONTWalletUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -281,6 +283,8 @@
 		73B1C4B02116006E002FDFF2 /* ONTNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONTNetworkService.m; sourceTree = "<group>"; };
 		C554FFA8220B7C411316F73D /* Pods-ONTWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONTWalletTests/Pods-ONTWalletTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB9CF875B66657AC2E4D93F9 /* libPods-ONTWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ONTWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F7272B217DC8750084A341 /* ONTOCSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ONTOCSDK.podspec; sourceTree = "<group>"; };
+		D1F7272D217DCBAD0084A341 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E11E61A23B1FC93A6B8DCC23 /* libPods-ONTWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ONTWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05A289613B1909F132C17D1 /* Pods-ONTWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONTWalletUITests/Pods-ONTWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FA427CD66D7CCC78FA3219A3 /* libPods-ONTWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ONTWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -328,6 +332,8 @@
 		731EB09F20F8447000A1C4D0 = {
 			isa = PBXGroup;
 			children = (
+				D1F7272D217DCBAD0084A341 /* LICENSE */,
+				D1F7272B217DC8750084A341 /* ONTOCSDK.podspec */,
 				731EB0AA20F8447000A1C4D0 /* ONTWallet */,
 				731EB0C320F8447300A1C4D0 /* ONTWalletTests */,
 				731EB0CE20F8447300A1C4D0 /* ONTWalletUITests */,
@@ -789,8 +795,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F7272E217DCBAD0084A341 /* LICENSE in Resources */,
 				731EB0B820F8447300A1C4D0 /* LaunchScreen.storyboard in Resources */,
 				7347155121154CA300ADD665 /* secp256k1.table in Resources */,
+				D1F7272C217DC8750084A341 /* ONTOCSDK.podspec in Resources */,
 				731EB0B520F8447300A1C4D0 /* Assets.xcassets in Resources */,
 				731EB0B320F8447000A1C4D0 /* Main.storyboard in Resources */,
 			);
@@ -1123,6 +1131,7 @@
 					"\"$(SRCROOT)/ONTWallet/ONTSDK/ONTCore/ONT.h\"",
 				);
 				INFOPLIST_FILE = ONTWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1157,6 +1166,7 @@
 					"\"$(SRCROOT)/ONTWallet/ONTSDK/ONTCore/ONT.h\"",
 				);
 				INFOPLIST_FILE = ONTWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
