@@ -15,8 +15,6 @@
 		731EB0B520F8447300A1C4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731EB0B420F8447300A1C4D0 /* Assets.xcassets */; };
 		731EB0B820F8447300A1C4D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731EB0B620F8447300A1C4D0 /* LaunchScreen.storyboard */; };
 		731EB0BB20F8447300A1C4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 731EB0BA20F8447300A1C4D0 /* main.m */; };
-		731EB0C520F8447300A1C4D0 /* ONTWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731EB0C420F8447300A1C4D0 /* ONTWalletTests.m */; };
-		731EB0D020F8447300A1C4D0 /* ONTWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731EB0CF20F8447300A1C4D0 /* ONTWalletUITests.m */; };
 		734714C121154BF400ADD665 /* neoutils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7347148421154BF400ADD665 /* neoutils.framework */; };
 		734714C221154BF400ADD665 /* MnemonicCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7347148721154BF400ADD665 /* MnemonicCode.m */; };
 		734714C321154BF400ADD665 /* ECKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7347148921154BF400ADD665 /* ECKey.m */; };
@@ -116,11 +114,7 @@
 		731EB0B920F8447300A1C4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		731EB0BA20F8447300A1C4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		731EB0C020F8447300A1C4D0 /* ONTWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONTWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		731EB0C420F8447300A1C4D0 /* ONTWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONTWalletTests.m; sourceTree = "<group>"; };
-		731EB0C620F8447300A1C4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		731EB0CB20F8447300A1C4D0 /* ONTWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONTWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		731EB0CF20F8447300A1C4D0 /* ONTWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONTWalletUITests.m; sourceTree = "<group>"; };
-		731EB0D120F8447300A1C4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7347148321154BF400ADD665 /* ONTAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONTAddress.h; sourceTree = "<group>"; };
 		7347148421154BF400ADD665 /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
 		7347148521154BF400ADD665 /* ONTAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONTAttribute.h; sourceTree = "<group>"; };
@@ -333,8 +327,6 @@
 			children = (
 				2C6C1BAA217DDC3000A31705 /* ONTOCSDK.podspec */,
 				731EB0AA20F8447000A1C4D0 /* ONTWallet */,
-				731EB0C320F8447300A1C4D0 /* ONTWalletTests */,
-				731EB0CE20F8447300A1C4D0 /* ONTWalletUITests */,
 				731EB0A920F8447000A1C4D0 /* Products */,
 				91841FDC4A836373E9CFD186 /* Pods */,
 				25B12D6CFA23DAE556816B25 /* Frameworks */,
@@ -367,24 +359,6 @@
 				731EB0BA20F8447300A1C4D0 /* main.m */,
 			);
 			path = ONTWallet;
-			sourceTree = "<group>";
-		};
-		731EB0C320F8447300A1C4D0 /* ONTWalletTests */ = {
-			isa = PBXGroup;
-			children = (
-				731EB0C420F8447300A1C4D0 /* ONTWalletTests.m */,
-				731EB0C620F8447300A1C4D0 /* Info.plist */,
-			);
-			path = ONTWalletTests;
-			sourceTree = "<group>";
-		};
-		731EB0CE20F8447300A1C4D0 /* ONTWalletUITests */ = {
-			isa = PBXGroup;
-			children = (
-				731EB0CF20F8447300A1C4D0 /* ONTWalletUITests.m */,
-				731EB0D120F8447300A1C4D0 /* Info.plist */,
-			);
-			path = ONTWalletUITests;
 			sourceTree = "<group>";
 		};
 		7347148021154BF400ADD665 /* ONTSDK */ = {
@@ -948,7 +922,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731EB0C520F8447300A1C4D0 /* ONTWalletTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,7 +929,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731EB0D020F8447300A1C4D0 /* ONTWalletUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
