@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "ONTWallet", "ONTWallet/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "ONTWallet/**/ONTWallet.h"
+  #s.public_header_files = "ONTWallet/**/ONTWallet.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
